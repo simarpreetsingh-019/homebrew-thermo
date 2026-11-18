@@ -1,6 +1,6 @@
 cask "thermo" do
-  version "1.3"
-  sha256 "5a70eb9929adae6b5a8bc925dce2f8ea9b786caa68e549bc4a5084da86ba0b0b"
+  version "1.3.1"
+  sha256 "9668506f9014ccc031f1d1eafdf580fde4d62e57f923e8477ebdfca5b3483235"
 
   url "https://github.com/simarpreetsingh-019/Thermo/releases/download/v#{version}/Thermo.zip"
   name "Thermo"
@@ -15,6 +15,16 @@ cask "thermo" do
   postflight do
     system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Thermo.app"]
   end
+
+  caveats <<~EOS
+    🌡️  Thermo is installed! Open it from Spotlight or Launchpad.
+
+    Created by Simarpreet Singh
+      Portfolio: https://simarpreet-019.github.io
+      X/Twitter: https://x.com/simarpreet_019
+
+    ⭐ Enjoying it? Star or fork: https://github.com/simarpreetsingh-019/Thermo
+  EOS
 
   uninstall quit: "local.thermo"
   zap trash: "~/Library/Preferences/local.thermo.plist"
