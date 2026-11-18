@@ -1,6 +1,6 @@
 cask "thermo" do
-  version "1.2"
-  sha256 "3efb9d68721f65178bd300665a8bdc67d32714542a184ba43787cff2c26a17f1"
+  version "1.3"
+  sha256 "5a70eb9929adae6b5a8bc925dce2f8ea9b786caa68e549bc4a5084da86ba0b0b"
 
   url "https://github.com/simarpreetsingh-019/Thermo/releases/download/v#{version}/Thermo.zip"
   name "Thermo"
