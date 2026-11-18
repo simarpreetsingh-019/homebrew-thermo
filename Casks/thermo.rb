@@ -27,7 +27,7 @@ cask "thermo" do
        💬 Feedback & ideas:  https://github.com/simarpreetsingh-019/Thermo/issues/new/choose
                             (or ⚙ → "Send Feedback…" inside the app)
        🐦 X / Twitter (DMs open):  https://x.com/simarpreet_019
-       🌐 More of my work:  https://simarpreet-019.github.io
+       🌐 More of my work:  https://simarpreetsingh-019.github.io
 
     ⭐ If Thermo is useful, a star or a share really helps:
        https://github.com/simarpreetsingh-019/Thermo
