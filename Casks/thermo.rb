@@ -17,13 +17,22 @@ cask "thermo" do
   end
 
   caveats <<~EOS
-    🌡️  Thermo is installed! Open it from Spotlight or Launchpad.
+    🌡️  Thermo is ready! Open it from Spotlight or Launchpad —
+        it lives around your notch (or in the menu bar on other Macs).
 
-    Created by Simarpreet Singh
-      Portfolio: https://simarpreet-019.github.io
-      X/Twitter: https://x.com/simarpreet_019
+    👋 Hey, I'm Simarpreet — I built Thermo. Thanks so much for installing it!
+       I'd genuinely love to hear what you think: what works, what's broken,
+       and what you'd like it to do next.
 
-    ⭐ Enjoying it? Star or fork: https://github.com/simarpreetsingh-019/Thermo
+       💬 Feedback & ideas:  https://github.com/simarpreetsingh-019/Thermo/issues/new/choose
+                            (or ⚙ → "Send Feedback…" inside the app)
+       🐦 X / Twitter (DMs open):  https://x.com/simarpreet_019
+       🌐 More of my work:  https://simarpreet-019.github.io
+
+    ⭐ If Thermo is useful, a star or a share really helps:
+       https://github.com/simarpreetsingh-019/Thermo
+
+    🔄 Thermo updates itself — new versions show up right in the app.
   EOS
 
   uninstall quit: "local.thermo"
