@@ -1,6 +1,6 @@
 cask "thermo" do
-  version "1.5.0"
-  sha256 "7d8cc56e0c37cff3ff9da40a745d709eefe24d470c46f104e7641ec2a5579c9b"
+  version "1.5.1"
+  sha256 "8aa8894374775d2800dd0742c166268705726f7304ff0decc9786cdd5f64c95b"
 
   url "https://github.com/simarpreetsingh-019/Thermo/releases/download/v#{version}/Thermo.zip"
   name "Thermo"
@@ -10,6 +10,7 @@ cask "thermo" do
   depends_on macos: ">= :ventura"
 
   app "Thermo.app"
+  binary "#{appdir}/Thermo.app/Contents/Resources/thermo", target: "thermo"
 
   # Not notarized yet: clear the quarantine flag so it opens without a Gatekeeper prompt.
   postflight do
